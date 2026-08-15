@@ -1,6 +1,6 @@
 -- 1. Create cc_detail table
 
-CREATE TABLE cc_detail (
+CREATE TABLE IF NOT EXISTS cc_detail (
     Client_Num INT,
     Card_Category VARCHAR(20),
     Annual_Fees INT,
@@ -24,7 +24,7 @@ CREATE TABLE cc_detail (
 
 -- 2. Create cc_detail table
 
-CREATE TABLE cust_detail (
+CREATE TABLE IF NOT EXISTS cust_detail (
     Client_Num INT,
     Customer_Age INT,
     Gender VARCHAR(5),
