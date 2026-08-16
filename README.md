@@ -3,13 +3,7 @@
 This project presents a **comprehensive Credit Card Transaction Analysis Dashboard** built using **Power BI** and **SQL**, designed to uncover actionable insights into customer spending behavior, card performance, and revenue trends.  
 It showcases an **end-to-end data analytics workflow** — from raw data cleaning to real-time interactive reporting.
 
-![Language](https://img.shields.io/badge/Language-SQL-blue)
-![Database](https://img.shields.io/badge/Database-PostgreSQL-green)
-![Tool](https://img.shields.io/badge/Tool-Power_BI-yellow)
-![Process](https://img.shields.io/badge/Process-ETL_(Extract→Transform→Load)-orange)
-![Skill](https://img.shields.io/badge/Skill-DAX_&_Power_Query-lightgreen)
-![Focus](https://img.shields.io/badge/Focus-Data_Analysis_&_Visualization-red)
-![Mode](https://img.shields.io/badge/Update-Real_Time_Data-purple)
+![Language](https://img.shields.io/badge/Language-SQL-blue) ![Database](https://img.shields.io/badge/Database-PostgreSQL-green) ![Tool](https://img.shields.io/badge/Tool-Power_BI-yellow) ![Process](https://img.shields.io/badge/Process-ETL_(Extract→Transform→Load)-orange) ![Skill](https://img.shields.io/badge/Skill-DAX_&_Power_Query-lightgreen) ![Focus](https://img.shields.io/badge/Focus-Data_Analysis_&_Visualization-red) ![Mode](https://img.shields.io/badge/Update-Real_Time_Data-purple)
 
 ---
 
@@ -38,14 +32,23 @@ To analyze **credit card transaction and customer data** to identify:
 ## 📂 Project Structure
 
 ```
-├── credit_card_data.zip       # Contains all 4 CSV files (credit_card.csv, customer.csv, cc_add.csv, cust_add.csv)
-├── SQL_create_table_Query.txt # SQL script to create database tables
-├── credit_card_report.pbix    # Power BI report file
-├── credit_card_report.pdf     # PDF version of dashboards
-├── 📁 Screenshots
-│ ├── Customer_Report.png
-│ └── Transaction_Report.png
-└── README.md
+├── README.md                          → Project documentation
+│
+├── Dashboard/ 
+│    └── credit_card_report.pbix       → Power BI report file
+│
+├── Data/ 
+│    └── credit_card_data.zip          → Contains all 4 CSV files
+│
+├── Docs/ 
+│    └── credit_card_report.pdf        → PDF version of dashboards
+│
+├── SQL/
+│    └── SQL_create_table_Query.sql    → SQL schema for creating tables  
+│
+└── Screenshots/
+    ├── Customer_Report.png             
+    └── Transaction_Report.png          
 ```
 
 ---
@@ -159,13 +162,6 @@ This analysis helps financial institutions:
 📬 [LinkedIn](https://www.linkedin.com/in/harshbelekar) | 🔗[GitHub](https://github.com/Harsh-Belekar)
 
 📧 [harshbelekar74@gmail.com](mailto:harshbelekar74@gmail.com)
-
----
-
-## 🏷️ Repository Topics
-
-powerbi sql data-analysis dashboard business-intelligence
-credit-card data-visualization analytics dax power-query
 
 ---
 
